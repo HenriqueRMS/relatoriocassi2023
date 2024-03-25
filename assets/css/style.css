@@ -1621,6 +1621,9 @@ margin-bottom: 3rem;
   .initialarea {
     height: 90vh;
   }
+  .initialbutton {
+    padding: 1rem 3rem;
+}
   .logo-slot {
     width: 100%;
   }
