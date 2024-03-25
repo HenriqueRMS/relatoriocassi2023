@@ -1616,7 +1616,7 @@ margin-bottom: 3rem;
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (min-width:374px) and (max-width: 768px) {
   /*----------INDEX-------------*/
   .initialarea {
     height: 90vh;
