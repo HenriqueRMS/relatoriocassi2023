@@ -1,0 +1,230 @@
+@media (max-width: 768px) {
+    /*----------INDEX-------------*/
+    .initialarea{
+        height: 90vh;
+    }
+    .logo-slot{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    .initialbuttons-group{ 
+        flex-direction: column;
+        gap: 2rem; 
+    }
+    .initialfooter{
+        height: 10vh;
+    }
+    .initialrights{
+        font-size: 0.9rem;
+    }
+     /*----------HOME-------------*/
+     .navbar .navbar-brand img {
+        width: 60%;
+    }
+    .banner-area{
+        height: 100vh;
+    }
+    .banner-content img {
+        width: 75%;
+        margin: auto;
+    }
+    .banner-content h4{
+        width: 95%;
+    }
+    .contayner{
+        width: 100%;
+    }
+
+    /*apresentação*/
+    .presentation-area {
+        height: 100vh;
+    }
+    .presentation-message {
+        width: 90%;
+    }
+    .presentation-button-area{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .presentation-buttons {
+        gap: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 3rem;
+    }
+    .expedient-button{
+        width: 75%;
+        margin: auto;
+    }
+    /*AÇÕES DE GESTÃO*/
+    .management-area {
+        background-color: #465EFF;
+        height: 100vh;
+    }
+    .management-content {
+        padding: 8rem 0;
+        display: block;
+    }
+    .management-content--left {
+        width: 90%;
+        margin: auto;
+    }
+    .management-content--right {
+        display: none;
+    }
+    .management-content--left h2 {
+        text-align: center;}
+
+     /*RESULTADOS*/
+     .results-area {
+        height: 100vh;
+        display: block;
+    }
+    .results-content {
+        padding: 8rem 0;
+        display: block;
+    }
+    .results-content--left {
+        display: none;
+    }
+    .results-content--right {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        text-align: right;
+        width: 100%;
+        align-items: center;
+    }
+    .results-content--right .section-description {
+        width: 90%;
+        color: $azul-alternativo1;
+    }
+    .results-button-group {
+        flex-direction: column;
+        display: flex;
+        gap: 3rem;
+        justify-content: space-between;
+    } 
+    
+    /*PARECERES*/
+    .opinions-area {
+        height: 100vh;
+    }
+    .opinions-content {
+        width: 90%;
+        margin: auto;
+    }
+    .opinions-content h2 {
+        text-align: center;
+    }
+    .opinions-button-group {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3rem;
+    }
+    .report-button {
+        padding: 1rem 4rem;  
+    }
+
+    /*VOTAÇÃO*/
+    .votation-area {
+        height: 100vh;
+    }
+    .votation-content--left {
+        width: 100%;
+    }
+    .votation-content--left h2 {
+        text-align: center;
+        color: #fff;
+    }
+    .votation-content--left .section-description {
+        margin: auto;
+        width: 90%;
+        color: #fff;
+    }
+    .votation-button-group {
+        margin: auto;
+        width: 90%;
+        flex-direction: column;
+        display: flex;
+        gap: 3rem;
+    }
+    .votation-content--right {
+        display: none;
+        width: 40%;
+    }
+
+    /*FOOTER*/
+    
+    .footer-content {
+        margin: auto;
+        width: 90%;
+        flex-direction: column;
+        display: flex;
+        /* justify-content: space-between; */
+        padding-top: 4rem;
+    }
+    .footer-list--item {
+        font-size: 0.9rem;
+        padding-bottom: 1rem;
+        cursor: pointer;
+    }
+    .separate-border{
+    display:none
+    }
+    .copyright-area {
+        /* font-size: 0.6rem; */
+        color: #fff;
+        margin: 0;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+    .socialmedia-area {
+        margin-top: 1.5rem;
+        text-align: center;
+        color: #fff;
+    }
+    .subfooter-area {
+        margin: auto;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width:768px) and (max-width: 1024px){
+    /*----------INDEX-------------*/
+    .initialarea{
+        height: 93vh;
+    }
+    .initialbuttons-group{
+        flex-direction: row;
+    }
+    .initialfooter{
+        height: 7vh;
+    }
+    .initialbutton{
+        font-size: 0.9rem;
+    }
+    .initialrights{
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  
+ }
+
+ @media (min-width: 1440px) and (max-width: 1920px) {
+    /* Seu código para telas grandes aqui */
+ }

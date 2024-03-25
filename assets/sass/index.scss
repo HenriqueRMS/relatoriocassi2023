@@ -1,0 +1,68 @@
+.initialarea{
+    background-image: url(../images/photos/principal-banner.png);
+    height: 96vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inital-container{
+    
+    width: 80%;
+    max-width: 1300px;
+    margin: auto;
+}
+.logo-slot{
+ width: 50%;
+ margin: auto;
+ img{
+    width: 100%;
+ }
+}
+
+
+
+.initialbuttons-group{
+   
+    display: flex;
+    justify-content: center;
+    gap: 8.5rem;
+    margin-top: 5rem;
+}
+
+.initialbutton{
+    padding: 1rem 4rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.initialbutton{
+    text-decoration: none;
+    color: #fff;
+}
+
+.initialbuttons-group .initialbutton:nth-child(1) {
+    background-color: transparent;
+    border: 1px solid #fff;
+   
+}
+.initialbuttons-group .initialbutton:nth-child(2) {
+    background-color: $amarelo-alternativo1;
+    color: #00529b;
+    border: none;
+    transition: all 0.3s ease-in;
+    &:hover{
+        background-color: $amarelo-cassi;
+    }
+}
+
+.initialfooter{
+    height: 4vh;
+    background-color: $azul-cassi;
+    color: #fff;
+    padding: 1rem;
+}
+
+.initialrights{
+    text-align: center;
+}

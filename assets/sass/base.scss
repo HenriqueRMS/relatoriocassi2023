@@ -1,0 +1,29 @@
+
+//CORES PADRÃO
+//primarias
+$azul-cassi:#135B9E;
+$amarelo-cassi:#FFDD21;
+$azul-alternativo1:#465EFF;
+$amarelo-alternativo1:#FCFC30;
+//secundarias
+$lilas:#F2F1FF;
+$verde-claro:#83FFEA;
+$verde-escuro:#00EBD0;
+$rosa:#FFA7D3;
+$azul-alternativo2:#54DCFC;
+$amarelo-alternativo2:#fffbda;
+//grayscale
+$cinza-claro:#E2E2E2;
+$cinza-medio:#A5A5A5;
+$cinza-escuro:#505050;
+
+//IMPORTAR OUTRAS ESTILIZAÇÕES
+@import "../sass/geral.scss"; //GERAL
+@import "../sass/home.scss"; //PÁGINA INICIAL
+@import "../sass/footer.scss"; //FOOTER
+@import "../sass/navbar.scss"; //NAV-BAR
+@import "../sass/cards.scss"; //CARDS (AÇÕES DE GESTÃO)
+@import "../sass/chapters.scss"; //CARDS (AÇÕES DE GESTÃO)
+@import "../sass/modal.scss"; //MODAL 
+@import "../sass/index.scss"; //INDEX 
+@import "../sass/responsive.scss"; //RESAPONSIVIDADE

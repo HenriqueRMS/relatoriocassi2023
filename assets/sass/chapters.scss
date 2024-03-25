@@ -1,0 +1,284 @@
+
+
+
+.chapterbanner-area{
+    background-color: $azul-alternativo1;
+    padding: 9rem;
+}
+
+
+.title-chapter-area{
+    width: fit-content;
+    margin: auto;
+    /* display: flex;
+    flex-direction: column; */
+}
+        
+
+.title-chapter-bar{
+    width: auto;
+    background-image: url(../images/elements/linha.png);
+    background-position: center;
+    background-size: cover;
+    background-clip: content-box;
+    height: 20px;
+}
+
+.chaptercontent-area{
+    display: flex;
+    flex-direction: column;
+    
+}
+.chaptercontent-area--text{
+
+    margin-bottom: 2rem;
+}
+.chaptercontent-area--text h3{
+    margin-bottom: 2rem;
+    color: $azul-cassi;
+    l{
+        font-weight: 200;
+    }
+}
+.chaptercontent-area--text h4{
+    margin-bottom: 1.5rem;
+    color: $cinza-escuro;
+}
+.chaptercontent-area--text p{
+    margin-bottom: 2rem;
+    color: $cinza-escuro;
+}
+
+.chaptercontent-area--image{
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.chaptercontent-area--image p{
+    color: $cinza-escuro;
+}
+
+.endchapter-image{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    img{
+        width: 90%
+    }
+}
+
+.clinic-mosaic{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.mosaic-slot{
+    
+    width: 250px;
+    height: 250px;   
+    padding: 0.5rem;
+    img{
+        border: 2px solid #fff;
+        border-radius: 4px;
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+.mosaic-slotvertical{
+    width: 300px;
+    height: 200px;
+    padding: 0.5rem;
+    img{
+        border: 2px solid #fff;
+        border-radius: 4px;
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+
+.icontext-table{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+  
+  .icontext-item{
+    display: flex;
+  }
+  
+  .icontext-item img{
+    margin-right: 2rem;
+    width: 45px;
+    height: 45px;
+  }
+
+.text-content{
+    /* background-color: red; */
+    width: 65%;;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    h3{
+        color: $azul-cassi;
+    }
+   
+}
+.picture-content{
+    /* background-color: blue; */
+    width: 35%;
+}
+.picture-content img{
+    width: 100%;
+}
+
+
+.howvote-title{
+    margin-bottom: 2rem;
+}
+
+.votingfor-area{
+    background-color: $amarelo-alternativo1;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: $azul-cassi;
+}
+
+.howvote-area{
+    background-color: #fff;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: $azul-cassi;
+}
+
+.howvote-list{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    h4{
+        padding: 0.4rem;
+        border-bottom: 1px solid $azul-alternativo1;
+        border-right: 1px solid $azul-alternativo1;
+        border-top-right-radius: 5px;
+    }
+}
+
+.chapter-area{
+    background-image: url(../images/elements/bg-transparent-01.png);
+    background-position: center;
+    background-size: contain;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.chapter-area2{
+    padding-top: 4rem;
+    background-color:$lilas;
+    
+}
+
+.chapter-area3{
+    padding-top: 4rem;
+    background-color:$amarelo-alternativo2;
+    
+}
+
+.title-chapter-area{
+ 
+    width: fit-content;
+    margin: auto;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.center-picture{
+    width: 65%;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.greatcenter-picture{
+    width: 40%;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    img{
+        width: 100%;
+    }
+}
+
+.center-picture img{
+    width: 100%;
+}
+
+.largecenter-picture {
+    width: 15%;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  .largecenter-picture img {
+    width: 100%;
+  }
+  
+  .side-image-content{
+    align-items: center;
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 3rem;
+    }
+    
+    .side-image-slot{
+      width: 40%;
+    }
+    
+    .side-image-slot img{
+      width: 100%;
+    }
+
+.return-button-area{
+    margin-bottom: 3rem;
+}
+
+.return-button{
+    border-radius: 3px;
+    border: 1px solid $azul-alternativo1;
+    background-color: transparent;
+    padding: 0.5rem 4rem;
+    width: 200px;
+    transition: all 0.5s ease-in-out;
+    color: $azul-alternativo1;
+    &:hover{
+        background-color: $azul-alternativo1;
+        color: $amarelo-alternativo1;
+        cursor: pointer;
+    }
+}
+
+#background-vida{
+    background-image: url(../images/photos/bg-vida.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    div{
+        width: 45%;
+        h4{
+            color: $amarelo-alternativo1;
+        }
+        p{
+            color: #fff;
+        }
+    }
+}
