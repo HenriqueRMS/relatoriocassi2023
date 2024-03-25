@@ -1646,6 +1646,13 @@ margin-bottom: 3rem;
     width: 60%;
   }
 
+  .button {
+    margin: auto;
+    padding: 1rem 3rem;
+    border-radius: 4px;
+    width: 308px;
+}
+
   .container-nav{
     width: 90%;
   }
