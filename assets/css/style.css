@@ -1397,6 +1397,11 @@ margin-bottom: 3rem;
   margin-bottom: 4rem;
 }
 
+#dados-deficiente{
+width: 500px;
+margin: auto;
+}
+
 .center-picture img {
   width: 100%;
   height: auto; 
@@ -2042,6 +2047,11 @@ h1 {
   height: 100%;
 }
 
+#dados-deficiente{
+  width: 330px;
+
+  margin: auto;
+  }
 
 
 /*VOTAÇÃO*/
