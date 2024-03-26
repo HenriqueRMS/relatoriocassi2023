@@ -1324,8 +1324,9 @@ margin-bottom: 3rem;
 
 }
 
-.side-image-slot{
-  width: 40%;
+.side-image-slot {
+  max-width: 120px;
+  width: 30%;
 }
 
 .side-image-slot img{
