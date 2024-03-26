@@ -1419,7 +1419,7 @@ margin-bottom: 3rem;
   flex-wrap: wrap;
   margin-top: 4rem;
   margin-bottom: 4rem;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .side-to-side-image{
