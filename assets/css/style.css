@@ -1745,6 +1745,12 @@ margin-bottom: 3rem;
 
 
   /*AÇÕES DE GESTÃO*/
+
+  .return-button-area {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
   .management-area {
     background-color: #465EFF;
     height: 100vh;
