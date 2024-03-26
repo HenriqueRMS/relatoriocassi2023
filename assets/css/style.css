@@ -1391,19 +1391,21 @@ margin-bottom: 3rem;
   margin-bottom: 4rem;
 }
 
+.center-picture img {
+  width: 100%;
+}
+
 .greatcenter-picture {
   width: 40%;
   margin: auto;
-  margin-top: 4rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 .greatcenter-picture img {
   width: 100%;
 }
 
-.center-picture img {
-  width: 100%;
-}
+
 
 .largecenter-picture {
   width: 15%;
@@ -1969,12 +1971,21 @@ h1 {
   gap: 1rem;
 }
 
+/*TELEPORT*/
+
 .table-mosaic-item {
   width: 100%;
   height: auto;
   padding: 1rem;
 }
 
+.center-picture{
+  width: 100%;
+}
+
+.greatcenter-picture {
+  width: 80%;
+}
 
 /*VOTAÇÃO*/
 
