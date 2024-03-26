@@ -325,11 +325,13 @@ span {
   color: #135B9E;
   cursor: pointer;
   transition: all 0.3s ease-in;
+
 }
 .opinions-button-item:hover {
   background-color: #135B9E;
   border: 1px solid transparent;
   color: #fff;
+  text-decoration: none;
 }
 
 .report-button {
@@ -345,6 +347,7 @@ span {
   background-color: #135B9E;
   border: 1px solid transparent;
   color: #fff;
+  text-decoration: none;
 }
 
 /*VOTAÇÃO*/
