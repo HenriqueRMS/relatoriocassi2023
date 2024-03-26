@@ -1419,6 +1419,12 @@ margin: auto;
   height: auto; 
 }
 
+#brasilmap{
+width: 500px;
+margin: auto;
+margin-bottom: 2rem;
+}
+
 .side-to-side-content{
   display: flex;
   flex-wrap: wrap;
@@ -2049,10 +2055,12 @@ h1 {
 
 #dados-deficiente{
   width: 330px;
-
   margin: auto;
   }
 
+  #brasilmap{
+    width: 100%;
+  }
 
 /*VOTAÇÃO*/
 
