@@ -1522,6 +1522,7 @@ margin-bottom: 3rem;
 }
 
 .modal-text h3{
+  text-align: center;
   color: #00529b;
   background-color: #FFDD21;
 }
@@ -1539,6 +1540,7 @@ margin-bottom: 3rem;
 
 .file-group {
   display: flex;
+  justify-content: center;
   gap: 3rem;
   margin-top: 2rem;
 }
@@ -1923,7 +1925,7 @@ margin-bottom: 3rem;
 h1 {
   text-align: center;
   font-family: "fonteBB-bold";
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: bold;
 }
 
@@ -1990,7 +1992,7 @@ h1 {
 /*VOTAÇÃO*/
 
 .howvote-list h4 {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .votingfor-area {
