@@ -2155,6 +2155,11 @@ color: #00529b;
   width: 250px;
 }
 
+.modal-content{
+  margin-top: 5%;
+}
+
+
 #modalSite .modal-dialog {
   max-width:835px;
   margin:auto;
