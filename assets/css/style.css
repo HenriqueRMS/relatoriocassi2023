@@ -2105,7 +2105,16 @@ color: #00529b;
 
 
 @media (min-width: 1440px) and (max-width: 1920px) {
-  .results-button-item {
+
+.initialbuttons-group {
+    gap: 3.5rem;
+}
+
+.initialbutton {
+  padding: 1rem 3rem;
+}
+
+.results-button-item {
     padding: 1rem 3rem;
 }
 .card:hover {
