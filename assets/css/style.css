@@ -1377,6 +1377,12 @@ margin-bottom: 3rem;
   background-color: #fffbda;
 }
 
+.chapter-area4 {
+ background-color: #fdf2f7;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .title-chapter-area {
   width: fit-content;
   margin: auto;
@@ -1385,7 +1391,7 @@ margin-bottom: 3rem;
 }
 
 .center-picture {
-  width: 65%;
+  max-width: 65%;
   margin: auto;
   margin-top: 4rem;
   margin-bottom: 4rem;
@@ -1393,16 +1399,19 @@ margin-bottom: 3rem;
 
 .center-picture img {
   width: 100%;
+  height: auto; /* Garante proporção correta da imagem */
 }
 
 .greatcenter-picture {
-  width: 40%;
+  max-width: 40%;
   margin: auto;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
 .greatcenter-picture img {
   width: 100%;
+  height: auto; /* Garante proporção correta da imagem */
 }
 
 
