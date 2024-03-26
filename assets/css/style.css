@@ -2124,6 +2124,8 @@ color: #00529b;
 }
 
 }
+
+/*tablet*/
 @media (min-width: 768px) and (max-width: 1023px) {
   .container-nav {
     width: 82%;
@@ -2156,6 +2158,8 @@ color: #00529b;
 }
 
 }
+
+/*NOTEBOOK P*/
 @media (min-width:1024px) and (max-width:1439px){
 
   .clinic-mosaic{
@@ -2211,8 +2215,13 @@ color: #00529b;
 }
 }
 
-
+/*NOTEBOOK G*/
 @media (min-width: 1440px) and (max-width: 1920px) {
+
+  .pharm-item {
+    width: 165px;
+    height: auto;
+}
 
 .initialfooter{
   padding: 0px;
@@ -2280,6 +2289,7 @@ color: #00529b;
 /*# sourceMappingURL=style.css.map */
 }
 
+/*ULTRAWIDE*/
 @media (min-width: 1921px) and (max-width:2561px){
   #modalSISBB .modal-content{
     margin-top: 25%;
