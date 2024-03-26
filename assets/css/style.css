@@ -1399,7 +1399,7 @@ margin-bottom: 3rem;
 
 .center-picture img {
   width: 100%;
-  height: auto; /* Garante proporção correta da imagem */
+  height: auto; 
 }
 
 .greatcenter-picture {
@@ -1411,7 +1411,7 @@ margin-bottom: 3rem;
 
 .greatcenter-picture img {
   width: 100%;
-  height: auto; /* Garante proporção correta da imagem */
+  height: auto; 
 }
 
 
@@ -1991,11 +1991,11 @@ h1 {
 }
 
 .center-picture{
-  width: 100%;
+  max-width: 100%;
 }
 
 .greatcenter-picture {
-  width: 80%;
+  max-width: 80%;
 }
 
 /*VOTAÇÃO*/
