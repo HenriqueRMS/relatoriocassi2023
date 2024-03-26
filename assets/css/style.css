@@ -127,9 +127,9 @@ span {
 
 /*APRESENTAÇÃO*/
 .presentation-area {
-  background-image: url(../images/elements/bg-transparent-02.png);
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-image: url(../images/elements/bg-transparent-01.png);
+  background-size: cover;
+  background-position: center;
   display: flex;
   height: 95vh;
 }
@@ -1467,10 +1467,11 @@ margin-bottom: 3rem;
 .modal-content {
   background-color: #fefefe;
   margin: auto;
-  margin-top: 5%;
+  margin-top: 4%;
   padding: 30px;
   border: 1px solid #888;
-  width: 50%;
+  width: 80%;
+  height: 85vh;
 }
 
 .close {
@@ -1517,6 +1518,12 @@ margin-bottom: 3rem;
   font-size: 1rem;
   margin: 0;
 }
+
+.modal-text h3{
+  color: #00529b;
+  background-color: #FFDD21;
+}
+
 .modal-text h4 {
   color: #505050;
   margin-top: 0.4rem;
@@ -1616,6 +1623,7 @@ margin-bottom: 3rem;
   text-align: center;
 }
 
+/*CELULARES*/
 @media (min-width:374px) and (max-width: 768px) {
   /*----------INDEX-------------*/
   .initialarea {
@@ -1699,6 +1707,8 @@ margin-bottom: 3rem;
   /*MODAL*/
 
   .modal-content {
+    margin: auto;
+    margin-top: 30%;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -1720,6 +1730,10 @@ margin-bottom: 3rem;
     color: #505050;
     font-size: 0.8rem;
     margin: 0;
+}
+
+.modal-text h3{
+  font-size: 1.4rem;
 }
 
 .file-group {
@@ -2103,8 +2117,11 @@ color: #00529b;
 }
 
 
-
 @media (min-width: 1440px) and (max-width: 1920px) {
+
+.initialfooter{
+  padding: 0px;
+}
 
 .initialbuttons-group {
     gap: 3.5rem;
